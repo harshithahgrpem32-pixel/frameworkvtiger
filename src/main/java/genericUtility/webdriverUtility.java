@@ -10,5 +10,10 @@ public class webdriverUtility {
 	{
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(sec));
 	}
+	
+	public void maximizeWindow(WebDriver driver)
+	{
+	driver.manage().window().maximize();	
+	}
 
 }
